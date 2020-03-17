@@ -23,7 +23,7 @@ jobs:
       with:
         java-version: '1.8.0_241'
         architecture: x64
-        jdkFile: jdk-8u241-linux-x64.tar.gz # Optional - jdkFile to install java from. Useful for versions not found on Zulu Community CDN
+        jdkFile: module/jdk-8u241-linux-x64.tar.gz # Optional - jdkFile to install java from. Useful for versions not found on Zulu Community CDN
 #- run: java -cp java HelloWorldApp  
 
 #- uses: actions/checkout@v1
