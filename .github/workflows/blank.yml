@@ -23,7 +23,7 @@ jobs:
       with:
         java-version: '1.8.0_242'
         architecture: x64
-        jdkFile: https:////github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u242-b08/OpenJDK8U-jdk_x64_linux_hotspot_8u242b08.tar.gz
+        jdkFile: https:\/\/github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u242-b08/OpenJDK8U-jdk_x64_linux_hotspot_8u242b08.tar.gz
 #- run: java -cp java HelloWorldApp  
 
 #- uses: actions/checkout@v1
